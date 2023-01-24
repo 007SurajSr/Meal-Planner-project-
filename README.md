@@ -1,3 +1,11 @@
-# Meal-Planner-project-
+# html-css-js-project-boilerplate
 # **Meal Planner** [![demo](https://img.shields.io/badge/MealPlanner-Live-orange)](https://meal-planner-js.netlify.app/)
-This is a my very first frontend project using html, CSS and JavaScript 
+
+
+> This is the Meal Planner Project, Generate Daily meal according to your calorie intake.
+### 🛠 Tech stack used
+
+- JAVASCRIPT
+- HTML
+- CSS
+- BOOTSTRAP
