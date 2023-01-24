@@ -1,5 +1,4 @@
-# html-css-js-project-boilerplate
-# **Meal Planner** [![demo](https://img.shields.io/badge/MealPlanner-Live-orange)](https://meal-planner-js.netlify.app/)
+ # **Meal Planner** [![demo](https://img.shields.io/badge/MealPlanner-Live-orange)](https://meal-planner-js.netlify.app/)
 
 
 > This is the Meal Planner Project, Generate Daily meal according to your calorie intake.
