@@ -103,7 +103,7 @@ const btnRecipe = async (data) => {
   ingredientSection.innerHTML = "";
   stepsSection.innerHTML = "";
   equipmentSection.innerHTML = "";
-  const url = `yourAPI`;
+  const url = `yourApi`;
   let information;
 
   await fetch(url)
