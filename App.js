@@ -72,7 +72,7 @@ const generateMealsCard = (datas) => {
   </div>
   `;
   datas.meals.map(async (data) => {
-    const url = `yourAPI`;
+    const url = `youAPI`;
     let imgURL;
     await fetch(url)
       .then((res) => {
@@ -103,7 +103,7 @@ const btnRecipe = async (data) => {
   ingredientSection.innerHTML = "";
   stepsSection.innerHTML = "";
   equipmentSection.innerHTML = "";
-  const url = `yourApi`;
+  const url = `youApi`;
   let information;
 
   await fetch(url)
@@ -163,7 +163,7 @@ const btnRecipe = async (data) => {
   stepsSection.appendChild(stCardDiv);
 
   // equipmentSection
-  const urlEquip = `yourAPI`;
+  const urlEquip = `youAPI`;
   let equip;
 
   await fetch(urlEquip)
