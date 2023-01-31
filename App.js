@@ -46,7 +46,7 @@ const getCalorie = () => {
 
 const getMeals = async (bmr) => {
   document.getElementById("loader").style.display = "block";
-  const url = `yourAPI`;
+  const url = `youAPI`;
 
   let datas;
   await fetch(url)
