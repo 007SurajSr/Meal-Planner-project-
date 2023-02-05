@@ -47,7 +47,7 @@ const getCalorie = () => {
 const getMeals = async (bmr) => {
   document.getElementById("loader").style.display = "block";
   const url = `https://api.spoonacular.com//mealplanner/generate?timeFrame=day&targetCalories=${bmr}&apiKey=${API_KEY}&includeNutrition=true`;
-  const url = `yourAPI`;
+ 
 
   let datas;
   await fetch(url)
@@ -74,7 +74,7 @@ const generateMealsCard = (datas) => {
   `;
   datas.meals.map(async (data) => {
     const url = `https://api.spoonacular.com/recipes/${data.id}/information?apiKey=${API_KEY}&includeNutrition=false`;
-    const url = `yourAPI`;
+ 
     let imgURL;
     await fetch(url)
       .then((res) => {
@@ -106,7 +106,7 @@ const btnRecipe = async (data) => {
   stepsSection.innerHTML = "";
   equipmentSection.innerHTML = "";
   const url = `https://api.spoonacular.com/recipes/${data}/information?apiKey=${API_KEY}&includeNutrition=false`;
-  const url = `yourApi`;
+  
   let information;
 
   await fetch(url)
@@ -167,7 +167,7 @@ const btnRecipe = async (data) => {
 
   // equipmentSection
   const urlEquip = `https://api.spoonacular.com/recipes/${data}/equipmentWidget.json?apiKey=${API_KEY}&includeNutrition=false`;
-  const urlEquip = `yourAPI`;
+  
   let equip;
 
   await fetch(urlEquip)
